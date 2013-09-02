@@ -1,0 +1,1 @@
+This file should not be parsed. In other words, if a dont_parse.tex file shows up, then something went wrong

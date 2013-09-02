@@ -1,0 +1,6 @@
+Please do not use the files in the local/lib/archive/ folder. I make no guarantee that they work.
+
+They were scrapped in the process of making this tool. However, I didn't want to get rid of them because they contain some code that I may want to fix up and use later.
+
+Thanks,
+Arun
