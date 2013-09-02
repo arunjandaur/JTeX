@@ -11,10 +11,13 @@ Setup:
 ------
 1. Open the terminal
 2. Clone the repository:
+        
         git clone https://github.com/arunjandaur/JTeX.git
 3. Go into the repository:
+
         cd JTeX/
 4. Run the setup file (this will copy everything into the appropriate /usr/local/bin,share,lib folders):
+        
         bash setup
 
 Usage:
@@ -27,5 +30,6 @@ Like it? I hope so. :)
 Tell me what you think on my GitHub: github.com/arunjandaur/JTeX (I always appreciate the feedback)
 
 Credits:
+--------
 1. Python API
 2. I got the connection.json file in the local/lib/tests/ folder from draw2d.org, a website that provides an amazing 2D drawing software. Check it out sometime!
