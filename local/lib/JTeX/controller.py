@@ -1,6 +1,6 @@
 import os
 import sys
-from parser import *
+from simple_parser import *
 
 filepaths = [] #Holds filepaths that were specified at the command line
 

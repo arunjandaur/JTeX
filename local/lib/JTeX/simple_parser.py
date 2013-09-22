@@ -1,7 +1,7 @@
 import re
 
 #This class can parse both JSON code as well as Python lists and dicts into LaTeX
-class parser():
+class simple_parser():
 	#Fetches the file at filepath and parses it to LaTeX
 	def parse_file_to_latex(self, filepath):
 
