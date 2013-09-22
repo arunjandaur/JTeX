@@ -26,7 +26,7 @@ def handle_cmdline():
 
 #Takes care of the parsing by using the parser class
 def parse():
-	json_parser = parser()
+	json_parser = simple_parser()
 	for filepath in filepaths: #Loop through the text from each file
 		json_parser.parse_file_to_latex(filepath) #Parses the .json or .py file into a .tex file
 
