@@ -1,6 +1,7 @@
 import os
 import sys
 from simple_parser import *
+import smart_parser
 
 filepaths = [] #Holds filepaths that were specified at the command line
 
@@ -26,9 +27,10 @@ def handle_cmdline():
 
 #Takes care of the parsing by using the parser class
 def parse():
-	json_parser = simple_parser()
+	#json_parser = simple_parser()
 	for filepath in filepaths: #Loop through the text from each file
-		json_parser.parse_file_to_latex(filepath) #Parses the .json or .py file into a .tex file
+		smart_parser.scan(filepath)
+		#json_parser.parse_file_to_latex(filepath) #Parses the .json or .py file into a .tex file
 
 handle_cmdline()
 parse()
